@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.tests.json",
+    "compilerOptions": {
+        "rootDir": "../",
+        "lib": [
+            "DOM",
+        ],
+        "types": [
+            "intern",
+            "node",
+        ],
+    },
+    "include": [
+        "../tests/**/*",
+    ],
+}
