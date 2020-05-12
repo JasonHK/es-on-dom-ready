@@ -20,5 +20,8 @@
   },
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "typescript": "^3.8.3"
+  }
 }
