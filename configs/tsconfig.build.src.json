@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.build.json",
+    "compilerOptions": {
+        "module": "ES2015",
+        "rootDir": "../src",
+        "lib": [
+            "DOM",
+        ],
+        "types": [
+            "node",
+        ],
+        "declaration": false,
+        "sourceMap": true,
+    },
+    "include": [
+        "../src/*",
+    ],
+}
