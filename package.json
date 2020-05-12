@@ -1,6 +1,6 @@
 {
   "name": "@jasonhk/on-dom-ready",
-  "description": "Execute a callback when the DOM is ready.",
+  "description": "Execute a callback function when the DOM is ready.",
   "license": "MIT",
   "version": "0.0.1",
   "author": "Jason Kwok <github@jasonhk.email> (https://jasonhk.net)",
