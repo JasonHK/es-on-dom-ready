@@ -11,8 +11,10 @@
  */
 export function onDomReady(callback: OnDomReadyCallback): void
 {
+    /* istanbul ignore else  */
     if (process.env.NODE_ENV !== "production")
     {
+        /* istanbul ignore if  */
         if (typeof callback !== "function")
         {
             throw new TypeError("`callback` is not a function.");
