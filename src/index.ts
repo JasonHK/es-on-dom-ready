@@ -19,8 +19,8 @@ export function onDomReady(callback: OnDomReadyCallback): void
         }
     }
 
-    const readyState = document.readyState;
-    if ((readyState === "interactive") || (readyState === "complete"))
+    const state = document.readyState;
+    if ((state === "interactive") || (state === "complete"))
     {
         callback();
     }
