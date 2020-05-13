@@ -21,9 +21,11 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "@types/jsdom": "^16.2.1",
     "@types/node": "^13.13.5",
     "@types/sinon": "^9.0.0",
     "intern": "^4.8.4",
+    "jsdom": "^16.2.2",
     "rollup": "^2.9.1",
     "sinon": "^9.0.2",
     "typescript": "^3.8.3"
