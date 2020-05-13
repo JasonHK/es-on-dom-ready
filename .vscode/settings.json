@@ -1,0 +1,11 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "configs/intern.json",
+                "configs/intern.*.json",
+            ],
+            "url": "./node_modules/intern/schemas/config.json"
+        },
+    ],
+}

@@ -1,0 +1,10 @@
+{
+    "extends": "./intern.json",
+    "coverage": [
+        "./src/**/*.ts"
+    ],
+    "reporters+": [
+        "lcov",
+        "htmlcoverage"
+    ]
+}

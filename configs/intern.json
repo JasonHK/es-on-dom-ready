@@ -1,0 +1,12 @@
+{
+    "basePath": "../",
+    "reporters": [
+        "runner"
+    ],
+    "node": {
+        "tsconfig": "./configs/tsconfig.test.json",
+        "suites": [
+            "./tests/unit/**/*.test.ts"
+        ]
+    }
+}
