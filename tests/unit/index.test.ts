@@ -25,9 +25,9 @@ suite(
                     {
                         if (intern.environment === "node")
                         {
-                            const jsdom = new JSDOM(undefined, { runScripts: "dangerously" });
-                            global.Event = jsdom.window.Event;
-                            global.document = jsdom.window.document;
+                            const { window } = new JSDOM();
+                            global.Event = window.Event;
+                            global.document = window.document;
                         }
 
                         addEventListenerStub = spyAddEventListener();
